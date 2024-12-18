@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket,s portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Aniket's portfolio</h1>
+        </div>
+        <hr>
+        <div class="side">
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#Eduaction">Eduaction</a></li>
+                        <li><a href="#Hobbies">Hobbies</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <li><a href="#Admin-login">Admin login</a></li>
+                        <li><a href="#user-responses">User Responces</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <button type="button" id="Theme-toggle">Theme</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-box" id="intro">
+            <div class="box">
+                <div class="profile-image">
+                    <img height="200" src="Images/aniket.jpg" alt="Aniket photo">
+                </div>
+                <div class="about">
+                    <h2 class="heading">A Bit About Me</h2>
+                    <p>
+                        i am aniket.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section-box" id="Eduaction">
+            <div class="box">
+                <article class="Eduaction">
+                    <h2 class="heading">Eduaction</h2>
+                    <h3>Bachelor of Science (BSc)</h3>
+                    <h4>IIT Madras</h4>
+                    <h3>High School PCM</h3>
+                    <h4>S.F.L high school</h4>
+
+                </article>
+            </div>
+        </section>
+        <section class="section-box" id="Hobbies">
+            <div class="box">
+                <h2 class="heading">Hobbies</h2>
+                <div class="singing-box">
+                    <img height="130" src="Images/Singing.png" alt="mic img">
+                    <h3>Singing</h3>
+                </div>
+                <div class="Gaming-box">
+                    <img height="130" src="Images/Gaming.png" alt="game img">
+                    <h3>Gaming</h3>
+                </div>
+                <div class="Traveling-box">
+                    <img height="130" src="Images/Traveling.png" alt="traveling img">
+                    <h3>Traveling</h3>
+                </div>
+                <div class="Photography-box">
+                    <img height="130" src="Images/Photography.png" alt="photography img">
+                    <h3>Photography</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-box" id="Contact">
+            <div class="box">
+                <form class="form">
+                    <h2 class="heading">Contact Me</h2>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section> 
+        <section class="section-box" id="Admin-login">
+            <div class="box">
+                <form class="form">
+                    <h2 class="heading">Admin login</h2>
+                    <label type="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                     
+                    <label type="password">Password</label>
+                    <input type="password" id="password" name="password">
+
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </section>
+
+        <section  id="user-responses">
+            <div ><h2 class="heading">User Responses</h2>
+
+                <p>No responses yet. Be the first to leave a message!</p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="box">
+            <p>
+                <a href="mailto:aniketupase96@gmail.com">Contact Me</a>|
+                <a href="https://www.linkedin.com/in/aniket-upase-5671b728a/" target="_blank">LinkedIn</a>|
+                <a href="https://github.com/Anitech96" target="_blank">GitHub</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
